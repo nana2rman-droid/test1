@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Registration Page</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro&display=swap" rel="stylesheet">
+        <style>
+        .register-wrapper {
+            width: 895px;
+            height: 610px;
+            background: #25292B 0% 0% no-repeat padding-box;
+            border-radius: 10px;
+            margin: 0 auto; 
+            overflow: hidden;
+        }
+        .left-block {
+            width: 30%;
+            background: #1e1224;
+            height: 100%;
+            float: left;
+            background-image: url('https://cdn.europebet.com/bgr/EuropeBet/StartPage/neutral/image/2019/09/openaccount.banner_v3.jpg');
+            background-size: contain;
+            background-repeat:no-repeat;
+
+            
+        
+
+        }
+        .right-block {
+            width: calc(70% - 88px);
+            background: #25292B;
+            height: 100%;
+            float: right;
+            padding: 44px;
+            
+        }
+        .right-block .title-section h3 {
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        font-size: 20px;
+        margin-top: 0;
+        }
+        .right-block .title-section p {
+            color: #7D7D7D;
+            font-size: 12px;
+            font-family: 'Source Sans Pro', sans-serif; 
+        }
+
+        .form .input-item {
+            display: inline-block;
+            width: calc(100% - 35px);
+            margin-bottom: 26px;
+        }
+
+        .form .input-item input {
+            color: #ffffff;
+            border: 1px solid #2F3336;
+            border-radius: 4px;
+            width: 100%;
+            height: 50px;
+            padding-left: 12px;
+            background: #1F2223 0% 0% no-repeat padding-box;
+        }
+        
+        .parent-password .input-item {
+            width: calc(50% - 35px) !important;
+            float: left;
+        }
+
+        .parent-password .input-item:first-child {
+            margin-right: 35px;
+        } 
+
+
+        </style>
+    </head>
+
+    <body>
+        <div class="register-wrapper">
+            <div class="left-block"></div>
+            <div class="right-block">
+                <div class="title-section">
+                    <h3>Step 1</h3>
+                    <p>All fields are required</p>
+                </div>
+            
+            <div class="form">
+                <form>
+                    <div class="input-item">
+                        <input placeholder="Username"/>
+                    </div>
+                <div class="parent-password">
+                    <div class="input-item">
+                        <input placeholder="Password"/>
+                    </div>
+                    <div class="input-item">
+                        <input placeholder="Confirm Password"/>
+                    </div>
+                </div>
+                    <div class="input-item">
+                        <input placeholder="Mobile"/>
+                    </div>
+                    <div class="input-item">
+                        <input placeholder="Email"/>
+                    </div>
+                </form>
+            </div>
+            </div>
+        </div>
+
+    </body>
+</html>
